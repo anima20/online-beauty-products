@@ -1,0 +1,104 @@
+
+		body{
+			
+			background: url(images/regs3.jpg);
+			background-repeat: no-repeat;
+			object-fit: cover;
+			height: 430px;
+			background-size: cover;
+			background-position: center;"
+			
+		}
+		.loginbox{
+			margin-top: 3%;
+			width: 320px;
+			padding: 70px 30px ;
+			height: 380px;
+			background:  black;
+			opacity: 0.7;
+			color: white;
+			top: 51%;
+			left: 50%;
+			position: absolute;
+			transform: translate(-50%,-50%);
+			box-sizing: border-box;
+		}
+		.user{
+			width: 100px;
+			height: 100px;
+			border-radius: 50%;
+			position: absolute;
+			top: -50px;
+			left: 35%;
+			/*left: calc(50%,-50%);*/
+		}
+		h1{
+			margin: 0%;
+			padding-bottom: 20px;
+			text-align: center;
+			font-size: 25px;
+		}
+		#user{
+			margin: 0;
+			padding: 0;
+			font-weight: bold;
+		}
+		.loginbox input{
+			width: 100%;
+			margin-bottom: 20px;
+		}
+		
+		.loginbox input[type="text"] , input[type="password"]
+		{
+			border : none;
+			border-bottom:  1px solid white;
+			background: transparent;
+			outline: none;
+			height: 40px;
+			color: white;
+			font-size: 16px;
+			
+		}
+		.loginbox input[type="submit"]
+		{
+			border: none;
+			outline: none;
+			height: 40px;
+			background: red;
+			margin-bottom: 2%;
+			color: black;
+			font-size: 18px;
+			border-radius: 20px;
+		}
+		.loginbox input[type="submit"]:hover
+		{
+			cursor: pointer;
+			background: yellow;
+			/*color: black;*/
+		}
+		.loginbox a{
+			text-decoration: underline;
+
+			font-size: 15px;
+			line-height: 20px;
+			color: darkgrey;
+		}
+		.loginbox a:hover{
+			color: red;
+		}
+
+		.form-error{
+			color:red;
+		}
+
+		.form-success{
+			color:green;
+		}
+
+		.input-error{
+			box-shadow= 0 0 5px red;
+		}
+
+
+
+
